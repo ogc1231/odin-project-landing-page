@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-bottom: 70px;
+    
+}
+
+h1 {
+    color: white;
+    width: 450px;
+    font-size: 24px;
+}
+
+.link {
+    display: flex;
+    width: 450px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.first {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding-bottom: 50px;
+}
+
+.hero {
+    width: 450px;
+    height: 200px;
+    
+}
+
+.hero-text {
+    width: 360px;
+}
+
+.img {
+    width: 450px;
+    height: 200px;
+    background-color: darkgrey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    color: white;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.box {
+    width: 150px;
+    height: 140px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.box-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.box-text {
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 90px;
+   
+}
+
+.quote-text {
+    
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+  
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call {
+    background-color: #3882f6;
+    display: flex;
+    margin: 80px 90px;
+    padding: 25px 90px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.call-text {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 30px 0 ;
+}
